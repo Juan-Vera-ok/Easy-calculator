@@ -4,6 +4,7 @@ import Input from "./Input"
 import Button from "./Button"
 import Result from "./Result"
 import Select from "./Select"
+import Imagen1 from "./Imagen1.png"
 export default function Calculator() {
     const [result, setResult] = useState("")
     const [operator, setOperator] = useState('')
@@ -53,7 +54,9 @@ export default function Calculator() {
 
     return (
         <div className="calculator-root">
-            <div className="calculator-section">
+                  <img src={Imagen1} className="calculator-section bordertop" alt="logo" />
+
+            <div className="calculator-section borderbottom">
                 <Input name="input1" value={input1} onChange={handleInputs}/>
                 <Select onChange={handleOperator}></Select>
                 <Input name="input2" value={input2} onChange={handleInputs}/>
