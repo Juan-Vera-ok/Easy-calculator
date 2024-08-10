@@ -27,3 +27,13 @@
  line-height: 0;
  margin: 2px;
 }
+
+.result{
+  line-height: 0;
+  margin: 2px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: white;
+}

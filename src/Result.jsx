@@ -3,7 +3,7 @@ import React from "react";
 export default function Result(props){
     return (
         
-            <label>{props.result}</label>
+            <label className="result">{props.result}</label>
         
     );
 }
